@@ -2,8 +2,8 @@ var dns = require('dns'),
 	net = require('net'),
 	os = require('os'),
 	winston = require('winston'),
-	Err = require('./lib/errors.js'),
-	MXConnection = require('lib/MXConnection.js'),
+	Err = require('./lib/error.js'),
+	MXConnection = require('./lib/MXConnection.js'),
 	async = require('async');
 
 
